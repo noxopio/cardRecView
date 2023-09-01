@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/fondo"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="20dp"
+
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                       android:text="DashBoard"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:padding="15dp"
+        android:rowCount="2"
+
+
+        >
+
+
+        <!--        card 1-->
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardpesos"
+            style="@style/tarjeta"
+            android:layout_row="0"
+            android:layout_column="0"
+            >
+            <ImageView
+                android:id="@+id/dollar"
+                style="@style/imagen"
+                android:src="@drawable/baseline_attach_money_24" />
+            <TextView
+                android:id="@+id/textView3"
+
+                style="@style/texto"
+                android:text="Administra tu dinero"
+                android:textSize="18sp"
+                />
+        </androidx.cardview.widget.CardView>
+<!--card 2-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/banco"
+            style="@style/tarjeta"
+            android:layout_row="0"
+            android:layout_column="1"
+            >
+            <ImageView
+                android:id="@+id/dollars"
+                style="@style/imagen"
+                android:src="@drawable/baseline_account_balance_24" />
+            <TextView
+                android:id="@+id/adsmitrar"
+                style="@style/texto"
+                android:text="Administra tu dinero"
+                android:textSize="18sp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+<!--        card3-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/banco"
+            style="@style/tarjeta"
+            android:layout_row="1"
+            android:layout_column="0"
+            >
+            <ImageView
+                android:id="@+id/dollars"
+                style="@style/imagen"
+                android:src="@drawable/baseline_account_balance_24" />
+            <TextView
+                android:id="@+id/adsmitrar"
+                style="@style/texto"
+                android:text="Administra tu dinero"
+                android:textSize="18sp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </GridLayout>
+</LinearLayout>

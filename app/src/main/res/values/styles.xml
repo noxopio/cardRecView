@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="tarjeta" parent="CardView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="elevation">10dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="cardBackgroundColor">#DCEdc8</item>
+<item name="android:padding">10dp</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="imagen" parent="Theme.AppCompat">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_marginBottom">20dp</item>
+
+    </style>
+
+    <style name="texto" parent="TextAppearance.AppCompat">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity"> start</item>
+        <item name="android:padding">5dp</item>
+
+    </style>
+</resources>
