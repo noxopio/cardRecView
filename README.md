@@ -1,6 +1,6 @@
 ## Aplicación de Lista de Frutas con Tarjetas Anidadas en Android
 
-Esta aplicación en Android Studio utiliza un RecyclerView para mostrar una lista de frutas utilizando tarjetas anidadas. Cada tarjeta representa una categoría de frutas y contiene una RecyclerView interna que muestra las frutas individuales de esa categoría.
+Esta aplicación en Android Studio utiliza un RecyclerView para mostrar una lista de frutas utilizando tarjetas anidadas. Cada tarjeta representa una  frutas.
 
 ### Características clave:
 
